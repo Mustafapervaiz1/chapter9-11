@@ -98,7 +98,7 @@ if(percentage >= 80){
   grade="fail"
   remarks="sorry"
 }
-
+`                                  
 
 document.write(`MARK SHEET </br></br></br>`)
 document.write(`Total marks:${total_marks}</br>`)
@@ -108,4 +108,19 @@ document.write(`percentage:${percentage}%</br>`)
 document.write(`Grade:${grade}</br>`)
 document.write(`Remarks:${remarks}</br>`)
 */
+                                 //question no:7'
 
+
+/*var input_number = prompt("guess one number ranging 1 to 10")
+var secret_number = 5;
+
+if(input_number == secret_number){
+  alert("Bingo!")
+}else if (input_number == ++secret_number){
+  document.write("Close enough to the close answer")
+}else {alert("sorry try again later")}*/
+
+
+                                    //question no:8'
+
+var number = (prompt("write any number divide by three"))
